@@ -1,0 +1,15 @@
+Switch,Card,22
+Cluedo,Board,11
+Dobble,Card,18
+Scrabble,Board,7
+Monopoly,Board,12
+Jenga,Wooden,16
+Risk,Board,6
+Chess,Board,21
+Uno,Card,25
+Catan,Board,9
+Guess Who,Board,15
+Ticket to Ride,Board,5
+Boggle,Word,8
+Dixit,Card,10
+Pandemic,Board,4
