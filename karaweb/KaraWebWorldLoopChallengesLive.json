@@ -1,0 +1,3473 @@
+{
+  "karaWebVersion": 5,
+  "appMode": "blocks",
+  "name": "KaraWebWorldLoopChallengesLive",
+  "savedAt": "2026-05-28T18:33:33.764Z",
+  "world": {
+    "width": 15,
+    "height": 10,
+    "cells": [
+      [
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        }
+      ],
+      [
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        }
+      ],
+      [
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        }
+      ],
+      [
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        }
+      ],
+      [
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        }
+      ],
+      [
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        }
+      ],
+      [
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        }
+      ],
+      [
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        }
+      ],
+      [
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        }
+      ],
+      [
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        },
+        {
+          "hasLeaf": false,
+          "object": null
+        }
+      ]
+    ],
+    "kara": {
+      "x": 7,
+      "y": 5,
+      "direction": "right"
+    }
+  },
+  "challengeFileGuid": "d79b4c98-09e8-4230-9743-2e20cdbc2513-c505",
+  "blocks": {
+    "blocklyState": null
+  },
+  "challenges": [
+    {
+      "id": "46d061aa-815e-4bcc-9ce4-138735684b2d-c363",
+      "guid": "46d061aa-815e-4bcc-9ce4-138735684b2d-c363",
+      "name": "Challenge 1",
+      "mode": "blocks",
+      "notes": "# Goal\n\nMake Kara walk to the tree then pick up the leaf one step to its right.",
+      "allowModeChange": false,
+      "initialWorld": {
+        "width": 15,
+        "height": 10,
+        "cells": [
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": "tree"
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": true,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ]
+        ],
+        "kara": {
+          "x": 2,
+          "y": 5,
+          "direction": "right"
+        }
+      },
+      "targetWorld": {
+        "width": 15,
+        "height": 10,
+        "cells": [
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": "tree"
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ]
+        ],
+        "kara": {
+          "x": 12,
+          "y": 6,
+          "direction": "down"
+        }
+      },
+      "intermediateCheckpoints": [],
+      "starter": {
+        "fsm": null,
+        "blocks": {
+          "blocks": {
+            "languageVersion": 0,
+            "blocks": [
+              {
+                "type": "controls_whileUntil",
+                "id": "p~oGlF7FVU*XhdgsjH-^",
+                "x": 50,
+                "y": 70,
+                "fields": {
+                  "MODE": "WHILE"
+                }
+              }
+            ]
+          }
+        },
+        "python": ""
+      },
+      "solution": {
+        "fsm": null,
+        "blocks": {
+          "blocks": {
+            "languageVersion": 0,
+            "blocks": [
+              {
+                "type": "controls_whileUntil",
+                "id": "u5:l;6E$=LdG@a/@a#m#",
+                "x": 50,
+                "y": 70,
+                "fields": {
+                  "MODE": "WHILE"
+                },
+                "inputs": {
+                  "BOOL": {
+                    "block": {
+                      "type": "logic_negate",
+                      "id": "+sVL((^RQj-H6Fh/]TN/",
+                      "inputs": {
+                        "BOOL": {
+                          "block": {
+                            "type": "kara_tree_front",
+                            "id": "dJ*Qmz[J6{`aY.@)HoC$"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "DO": {
+                    "block": {
+                      "type": "kara_move",
+                      "id": "L#{7Y|YH!bw]0l(;]-u/"
+                    }
+                  }
+                },
+                "next": {
+                  "block": {
+                    "type": "kara_turn_right",
+                    "id": "[sh~f:|5*}~Z,Ss[b|DX",
+                    "next": {
+                      "block": {
+                        "type": "kara_move",
+                        "id": "R_#`S%o.~+O,WDX/1AE7",
+                        "next": {
+                          "block": {
+                            "type": "kara_remove_leaf",
+                            "id": "k!yNc*H~zmy+76crZG/L"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "python": ""
+      },
+      "solutionAvailableToStudents": true,
+      "limits": {
+        "enforced": true,
+        "blocks": {
+          "added": 6
+        },
+        "fsm": {
+          "states": 0,
+          "transitions": 0
+        },
+        "python": {
+          "tokens": 0
+        }
+      },
+      "noCheckTarget": false,
+      "ignoreOrientation": false
+    },
+    {
+      "id": "a86575ea-d066-4feb-9066-057f6688ebe4-c161",
+      "guid": "a86575ea-d066-4feb-9066-057f6688ebe4-c161",
+      "name": "Challenge 2",
+      "mode": "blocks",
+      "notes": "# Goal \n\nMake Kara reach the leaf and pick it up.",
+      "allowModeChange": false,
+      "initialWorld": {
+        "width": 15,
+        "height": 10,
+        "cells": [
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": "tree"
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": "tree"
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": "tree"
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": true,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": "tree"
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ]
+        ],
+        "kara": {
+          "x": 2,
+          "y": 5,
+          "direction": "right"
+        }
+      },
+      "targetWorld": {
+        "width": 15,
+        "height": 10,
+        "cells": [
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": "tree"
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": "tree"
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": "tree"
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": "tree"
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ],
+          [
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            },
+            {
+              "hasLeaf": false,
+              "object": null
+            }
+          ]
+        ],
+        "kara": {
+          "x": 14,
+          "y": 7,
+          "direction": "right"
+        }
+      },
+      "intermediateCheckpoints": [],
+      "starter": {
+        "fsm": null,
+        "blocks": {
+          "blocks": {
+            "languageVersion": 0,
+            "blocks": [
+              {
+                "type": "controls_whileUntil",
+                "id": "+4ImbOym,-+t{AQs1oT!",
+                "x": 70,
+                "y": 70,
+                "fields": {
+                  "MODE": "WHILE"
+                }
+              }
+            ]
+          }
+        },
+        "python": ""
+      },
+      "solution": {
+        "fsm": null,
+        "blocks": {
+          "blocks": {
+            "languageVersion": 0,
+            "blocks": [
+              {
+                "type": "controls_whileUntil",
+                "id": "Fy+45Q(A.ykaBD2GHOq=",
+                "x": 30,
+                "y": 70,
+                "fields": {
+                  "MODE": "WHILE"
+                },
+                "inputs": {
+                  "BOOL": {
+                    "block": {
+                      "type": "logic_negate",
+                      "id": "w!e~6.:)WCvChM~3+Jdy",
+                      "inputs": {
+                        "BOOL": {
+                          "block": {
+                            "type": "kara_on_leaf",
+                            "id": "{s|Q]!uvf}UYOd%H~zqu"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "DO": {
+                    "block": {
+                      "type": "controls_whileUntil",
+                      "id": "L6p.3^bT*E#v7o`N`L:;",
+                      "fields": {
+                        "MODE": "WHILE"
+                      },
+                      "inputs": {
+                        "BOOL": {
+                          "block": {
+                            "type": "logic_operation",
+                            "id": "L.V^ePh23)B=KgczX)e-",
+                            "fields": {
+                              "OP": "AND"
+                            },
+                            "inputs": {
+                              "A": {
+                                "block": {
+                                  "type": "logic_negate",
+                                  "id": "tw~:b*AF3yN~;{++BCX#",
+                                  "inputs": {
+                                    "BOOL": {
+                                      "block": {
+                                        "type": "kara_tree_front",
+                                        "id": "s5Z.w(CLvzIJ]99N,WB:"
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "B": {
+                                "block": {
+                                  "type": "logic_negate",
+                                  "id": "ea)yx{f8p2(G.M}/:q+C",
+                                  "inputs": {
+                                    "BOOL": {
+                                      "block": {
+                                        "type": "kara_on_leaf",
+                                        "id": "RPt#2/s/a8xMO:DFp(yZ"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "DO": {
+                          "block": {
+                            "type": "kara_move",
+                            "id": "TvT%g;vTP.r`U|b?+|y3"
+                          }
+                        }
+                      },
+                      "next": {
+                        "block": {
+                          "type": "controls_if",
+                          "id": ".=tH|UESUVBNpGM_q]7C",
+                          "inputs": {
+                            "IF0": {
+                              "block": {
+                                "type": "kara_tree_front",
+                                "id": "857HW?/[ZtuiW,;E}M7u"
+                              }
+                            },
+                            "DO0": {
+                              "block": {
+                                "type": "kara_turn_left",
+                                "id": "Pi`FC/B$uEtL9U{x5FDL"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "next": {
+                  "block": {
+                    "type": "kara_remove_leaf",
+                    "id": "#+HA6uX[$_{=u;57x1iM"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "python": ""
+      },
+      "solutionAvailableToStudents": true,
+      "limits": {
+        "enforced": true,
+        "blocks": {
+          "added": 13
+        },
+        "fsm": {
+          "states": 0,
+          "transitions": 0
+        },
+        "python": {
+          "tokens": 0
+        }
+      },
+      "noCheckTarget": false,
+      "ignoreOrientation": false
+    }
+  ],
+  "challengeWork": {
+    "46d061aa-815e-4bcc-9ce4-138735684b2d-c363": {
+      "fsm": null,
+      "blocks": {
+        "blocks": {
+          "languageVersion": 0,
+          "blocks": [
+            {
+              "type": "controls_whileUntil",
+              "id": "p~oGlF7FVU*XhdgsjH-^",
+              "x": 50,
+              "y": 70,
+              "fields": {
+                "MODE": "WHILE"
+              }
+            }
+          ]
+        }
+      },
+      "python": ""
+    }
+  },
+  "cloudSave": {
+    "schemaVersion": 3,
+    "method": "codehooks",
+    "apiBaseUrl": "https://karaweb-fo7q.api.codehooks.io/dev",
+    "challengeFileGuid": "d79b4c98-09e8-4230-9743-2e20cdbc2513-c505",
+    "publicKeyJwk": {
+      "alg": "RSA-OAEP-256",
+      "e": "AQAB",
+      "ext": true,
+      "key_ops": [
+        "encrypt"
+      ],
+      "kty": "RSA",
+      "n": "tg15-bRanVngIYlFsDrgYfEhgjRZhT9ky7nm3C5frziUEWPbTHPfAVcbiu4oLriXbFRTlwZFAlzfJ2cyO9SBBi-keiDXuvprcOmP7cyNfT87l933GTCbh3arS4dGBpoqV3j5-sN6QSrKsnxuw4Uh1OM7VwRrdx-bce6hZyo0Wjo6BBuIJmFZ_oRd28AbIrwfWphrjp9AZAeq03oCPQh373P5Hg1p3k9mduB7wR4c1-lGAluBOItZjxjBj_X-q-Y2B-CxXNnt774nNglNkHKm2E3MmAwpBc932Xpx6gcy3v5IP-cphqM3aFyFhWmRgq_Uq5pz98VHA4I14EwIHOYNOtid50gVgq57Bi4DvbHZRIkbBgEcidcF74wKcY4c3LwJik6XvpXY8839UIJzkcxHGt3yi4R2yE-8wgddZsm-y4WMOqTK5tjUih2mmy_ctJ_O6EGmQ-jefH7hPJalEDl1xpMw4Lz_8vmijrIstqR4OLrrZadp6oCrD0MSc_yGTznUaNqBFs8MJkc9qsQCC7cFtd1uyKyMHmJ5IEWNTVI9zXArr_5_uGXoBK-b9nIGgwlgWwtubVEtUkOw0wFQIfCDaWtWQtBR3ZnxxxaEo-2Bb-05lLELUKiiVLuleKRcBGQimKFGs3M7myzpzIlt7sTndrH3KrodDdXjZQVauH7FuE8"
+    }
+  }
+}
