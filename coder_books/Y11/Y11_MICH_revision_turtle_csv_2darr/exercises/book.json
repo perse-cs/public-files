@@ -1,0 +1,795 @@
+{
+  "name": "Exercises",
+  "id": "rev-tcd-exercises-book",
+  "children": [
+    {
+      "id": "rev-tcd-t1",
+      "name": "Turtle 1 (trivial): Fix the hexagon",
+      "guide": "t1_hexagon.md",
+      "py": "t1_hexagon.py",
+      "tests": [
+        {
+          "in": [],
+          "out": [
+            {
+              "typ": "t",
+              "filename": "t1_check.py"
+            }
+          ]
+        }
+      ],
+      "additionalFiles": [
+        {
+          "filename": "t1_check.py",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "id": "rev-tcd-t2",
+      "name": "Turtle 2 (simple): A row of squares",
+      "guide": "t2_squares.md",
+      "py": "t2_squares.py",
+      "tests": [
+        {
+          "in": [
+            5
+          ],
+          "out": [
+            {
+              "typ": "t",
+              "filename": "t2_check.py"
+            }
+          ]
+        },
+        {
+          "in": [
+            2
+          ],
+          "out": [
+            {
+              "typ": "t",
+              "filename": "t2_check.py"
+            }
+          ]
+        },
+        {
+          "in": [
+            1
+          ],
+          "out": [
+            {
+              "typ": "t",
+              "filename": "t2_check.py"
+            }
+          ]
+        }
+      ],
+      "additionalFiles": [
+        {
+          "filename": "t2_check.py",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "id": "rev-tcd-t3",
+      "name": "Turtle 3 (medium): Archery target",
+      "guide": "t3_target.md",
+      "py": "t3_target.py",
+      "tests": [
+        {
+          "in": [
+            3
+          ],
+          "out": [
+            {
+              "pattern": "Drawing a target with 3 rings",
+              "ignore": "wc"
+            },
+            {
+              "typ": "t",
+              "pattern": "fill=\"#ff0000\" stroke=\"none\"",
+              "count": 2
+            },
+            {
+              "typ": "t",
+              "pattern": "fill=\"#ffffff\" stroke=\"none\"",
+              "count": 1
+            },
+            {
+              "typ": "t",
+              "pattern": "^(?:(?!stroke=\"none\")[\\s\\S])*<polygon points=\"300\\.0,390\\.0 [^\"]*\" fill=\"#ff0000\" stroke=\"none\"/>(?:(?!stroke=\"none\")[\\s\\S])*<polygon points=\"300\\.0,360\\.0 [^\"]*\" fill=\"#ffffff\" stroke=\"none\"/>(?:(?!stroke=\"none\")[\\s\\S])*<polygon points=\"300\\.0,330\\.0 [^\"]*\" fill=\"#ff0000\" stroke=\"none\"/>"
+            }
+          ]
+        },
+        {
+          "in": [
+            0,
+            7,
+            4
+          ],
+          "out": [
+            {
+              "pattern": "Invalid",
+              "ignore": "c",
+              "count": 2
+            },
+            {
+              "pattern": "Drawing a target with 4 rings",
+              "ignore": "wc"
+            },
+            {
+              "typ": "t",
+              "pattern": "fill=\"#ff0000\" stroke=\"none\"",
+              "count": 2
+            },
+            {
+              "typ": "t",
+              "pattern": "fill=\"#ffffff\" stroke=\"none\"",
+              "count": 2
+            },
+            {
+              "typ": "t",
+              "pattern": "^(?:(?!stroke=\"none\")[\\s\\S])*<polygon points=\"300\\.0,420\\.0 [^\"]*\" fill=\"#ff0000\" stroke=\"none\"/>(?:(?!stroke=\"none\")[\\s\\S])*<polygon points=\"300\\.0,390\\.0 [^\"]*\" fill=\"#ffffff\" stroke=\"none\"/>(?:(?!stroke=\"none\")[\\s\\S])*<polygon points=\"300\\.0,360\\.0 [^\"]*\" fill=\"#ff0000\" stroke=\"none\"/>(?:(?!stroke=\"none\")[\\s\\S])*<polygon points=\"300\\.0,330\\.0 [^\"]*\" fill=\"#ffffff\" stroke=\"none\"/>"
+            }
+          ]
+        },
+        {
+          "in": [
+            1
+          ],
+          "out": [
+            {
+              "pattern": "Drawing a target with 1 rings?",
+              "ignore": "wc"
+            },
+            {
+              "typ": "t",
+              "pattern": "fill=\"#ff0000\" stroke=\"none\"",
+              "count": 1
+            },
+            {
+              "typ": "t",
+              "pattern": "fill=\"#ffffff\" stroke=\"none\"",
+              "count": 0
+            },
+            {
+              "typ": "t",
+              "pattern": "^(?:(?!stroke=\"none\")[\\s\\S])*<polygon points=\"300\\.0,330\\.0 [^\"]*\" fill=\"#ff0000\" stroke=\"none\"/>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rev-tcd-t4",
+      "name": "Turtle 4 (hard): Bar chart of scores",
+      "guide": "t4_bar_chart.md",
+      "py": "t4_bar_chart.py",
+      "tests": [
+        {
+          "in": [
+            3,
+            80,
+            50,
+            20
+          ],
+          "out": [
+            {
+              "pattern": "Highest score: 80",
+              "ignore": "wc"
+            },
+            {
+              "pattern": "Average score: 50\\.0",
+              "ignore": "wc"
+            },
+            {
+              "typ": "t",
+              "pattern": "<line x1=\"30\\.0\" y1=\"450\\.0\""
+            },
+            {
+              "typ": "t",
+              "pattern": "fill=\"#008000\" stroke=\"none\"",
+              "count": 1
+            },
+            {
+              "typ": "t",
+              "pattern": "fill=\"#ffa500\" stroke=\"none\"",
+              "count": 1
+            },
+            {
+              "typ": "t",
+              "pattern": "fill=\"#ff0000\" stroke=\"none\"",
+              "count": 1
+            },
+            {
+              "typ": "t",
+              "pattern": ">80</text>"
+            },
+            {
+              "typ": "t",
+              "pattern": ">50</text>"
+            },
+            {
+              "typ": "t",
+              "pattern": ">20</text>"
+            }
+          ]
+        },
+        {
+          "in": [
+            0,
+            7,
+            2,
+            101,
+            100,
+            0
+          ],
+          "out": [
+            {
+              "pattern": "Invalid",
+              "ignore": "c",
+              "count": 3
+            },
+            {
+              "pattern": "Highest score: 100",
+              "ignore": "wc"
+            },
+            {
+              "pattern": "Average score: 50\\.0",
+              "ignore": "wc"
+            },
+            {
+              "typ": "t",
+              "pattern": "fill=\"#008000\" stroke=\"none\"",
+              "count": 1
+            },
+            {
+              "typ": "t",
+              "pattern": "fill=\"#ffa500\" stroke=\"none\"",
+              "count": 0
+            },
+            {
+              "typ": "t",
+              "pattern": "fill=\"#ff0000\" stroke=\"none\"",
+              "count": 1
+            },
+            {
+              "typ": "t",
+              "pattern": ">100</text>"
+            },
+            {
+              "typ": "t",
+              "pattern": ">0</text>"
+            }
+          ]
+        },
+        {
+          "in": [
+            1,
+            45
+          ],
+          "out": [
+            {
+              "pattern": "Highest score: 45",
+              "ignore": "wc"
+            },
+            {
+              "pattern": "Average score: 45\\.0",
+              "ignore": "wc"
+            },
+            {
+              "typ": "t",
+              "pattern": "fill=\"#ffa500\" stroke=\"none\"",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "in": [
+            1,
+            45
+          ],
+          "out": [
+            {
+              "typ": "c+",
+              "pattern": "def getValidInteger\\(",
+              "ignore": "w"
+            },
+            {
+              "typ": "c+",
+              "pattern": "def chooseColour\\(",
+              "ignore": "w"
+            },
+            {
+              "typ": "c+",
+              "pattern": "def calculateHeight\\(",
+              "ignore": "w"
+            },
+            {
+              "typ": "c+",
+              "pattern": "def drawBar\\(",
+              "ignore": "w"
+            },
+            {
+              "typ": "s+",
+              "pattern": "^green$",
+              "statement": "chooseColour(70)"
+            },
+            {
+              "typ": "s+",
+              "pattern": "^orange$",
+              "statement": "chooseColour(69)"
+            },
+            {
+              "typ": "s+",
+              "pattern": "^orange$",
+              "statement": "chooseColour(40)"
+            },
+            {
+              "typ": "s+",
+              "pattern": "^red$",
+              "statement": "chooseColour(39)"
+            },
+            {
+              "typ": "s+",
+              "pattern": "^150(\\.0)?$",
+              "statement": "calculateHeight(50)"
+            },
+            {
+              "typ": "s+",
+              "pattern": "^0(\\.0)?$",
+              "statement": "calculateHeight(0)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rev-tcd-c1",
+      "name": "CSV 1 (trivial): Big cities",
+      "guide": "c1_cities.md",
+      "py": "c1_cities.py",
+      "tests": [
+        {
+          "in": [
+            "5"
+          ],
+          "out": ".*London (UK)\\nTokyo (Japan)\\nLagos (Nigeria)\\nLima (Peru)\\nSydney (Australia)\\nCities found: 5"
+        },
+        {
+          "in": [
+            "10"
+          ],
+          "out": ".*Tokyo (Japan)\\nLagos (Nigeria)\\nLima (Peru)\\nCities found: 3"
+        },
+        {
+          "in": [
+            "20"
+          ],
+          "out": [
+            {
+              "pattern": "Cities found: 0"
+            },
+            {
+              "typ": "-",
+              "pattern": "\\((UK|France|Japan|Nigeria|Peru|Norway|Australia|Canada)\\)"
+            }
+          ]
+        }
+      ],
+      "additionalFiles": [
+        {
+          "filename": "cities.csv",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "rev-tcd-c2",
+      "name": "CSV 2 (simple): Club members by year",
+      "guide": "c2_members.md",
+      "py": "c2_members.py",
+      "tests": [
+        {
+          "in": [
+            "2019"
+          ],
+          "out": ".*M001 Amira Khan\\nM003 Chloe Evans\\nM006 Finn Murphy\\n3 member(s) joined in 2019"
+        },
+        {
+          "in": [
+            "2021"
+          ],
+          "out": ".*M002 Ben Taylor\\nM005 Ella Wright\\n2 member(s) joined in 2021"
+        },
+        {
+          "in": [
+            "2018"
+          ],
+          "out": [
+            {
+              "pattern": "No members joined in 2018"
+            },
+            {
+              "typ": "-",
+              "pattern": "M00\\d"
+            }
+          ]
+        }
+      ],
+      "additionalFiles": [
+        {
+          "filename": "members.csv",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "rev-tcd-c3",
+      "name": "CSV 3 (medium): Exam results report",
+      "guide": "c3_report.md",
+      "py": "c3_report.py",
+      "tests": [
+        {
+          "in": [
+            "100"
+          ],
+          "out": [
+            {
+              "pattern": "Passed: 3 of 6",
+              "ignore": "wc"
+            },
+            {
+              "typ": "f+",
+              "filename": "report.csv",
+              "pattern": "^name,total,result\\nAisha,133,Pass\\nBen,63,Fail\\nCarys,100,Pass\\nDan,145,Pass\\nEve,51,Fail\\nFemi,95,Fail\\n?$"
+            }
+          ]
+        },
+        {
+          "in": [
+            "90"
+          ],
+          "out": [
+            {
+              "pattern": "Passed: 4 of 6",
+              "ignore": "wc"
+            },
+            {
+              "typ": "f+",
+              "filename": "report.csv",
+              "pattern": "^name,total,result\\nAisha,133,Pass\\nBen,63,Fail\\nCarys,100,Pass\\nDan,145,Pass\\nEve,51,Fail\\nFemi,95,Pass\\n?$"
+            }
+          ]
+        }
+      ],
+      "additionalFiles": [
+        {
+          "filename": "results.csv",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "rev-tcd-c4",
+      "name": "CSV 4 (hard): Validating orders",
+      "guide": "c4_orders.md",
+      "py": "c4_orders.py",
+      "tests": [
+        {
+          "in": [],
+          "out": [
+            {
+              "pattern": "Invalid order: 1003",
+              "ignore": "wc"
+            },
+            {
+              "pattern": "Invalid order: 1004",
+              "ignore": "wc"
+            },
+            {
+              "pattern": "Invalid order: 1007",
+              "ignore": "wc"
+            },
+            {
+              "pattern": "Invalid order: 1008",
+              "ignore": "wc"
+            },
+            {
+              "typ": "-",
+              "pattern": "Invalid order: 100[12569]",
+              "ignore": "wc"
+            },
+            {
+              "pattern": "(^|\\n)Valid orders: 5"
+            },
+            {
+              "pattern": "(^|\\n)Invalid orders: 4"
+            },
+            {
+              "pattern": "Total value: £34\\.59"
+            },
+            {
+              "typ": "f+",
+              "filename": "valid_orders.csv",
+              "pattern": "^1001,Pencil,12,0\\.35,4\\.20\\n1002,Ruler,3,1\\.20,3\\.60\\n1005,Glue stick,4,1\\.75,7\\.00\\n1006,Calculator,1,12\\.99,12\\.99\\n1009,Compass,2,3\\.40,6\\.80\\n?$"
+            }
+          ]
+        },
+        {
+          "in": [],
+          "out": [
+            {
+              "typ": "c+",
+              "pattern": "def isValidOrder\\(",
+              "ignore": "w"
+            },
+            {
+              "typ": "c+",
+              "pattern": "def calculateLineTotal\\(",
+              "ignore": "w"
+            },
+            {
+              "typ": "c+",
+              "pattern": "def formatMoney\\(",
+              "ignore": "w"
+            },
+            {
+              "typ": "s+",
+              "pattern": "^True$",
+              "statement": "isValidOrder(['1', 'Pen', '3', '0.50'])"
+            },
+            {
+              "typ": "s+",
+              "pattern": "^False$",
+              "statement": "isValidOrder(['1', 'Pen', 'three', '0.50'])"
+            },
+            {
+              "typ": "s+",
+              "pattern": "^False$",
+              "statement": "isValidOrder(['1', 'Pen', '3'])"
+            },
+            {
+              "typ": "s+",
+              "pattern": "^False$",
+              "statement": "isValidOrder(['1', '', '3', '0.50'])"
+            },
+            {
+              "typ": "s+",
+              "pattern": "^False$",
+              "statement": "isValidOrder(['1', 'Pen', '0', '0.50'])"
+            },
+            {
+              "typ": "s+",
+              "pattern": "^False$",
+              "statement": "isValidOrder(['1', 'Pen', '', '0.50'])"
+            },
+            {
+              "typ": "s+",
+              "pattern": "^3\\.60?$",
+              "statement": "calculateLineTotal(3, 1.2)"
+            },
+            {
+              "typ": "s+",
+              "pattern": "^4\\.20?$",
+              "statement": "calculateLineTotal(12, 0.35)"
+            },
+            {
+              "typ": "s+",
+              "pattern": "^£7\\.00$",
+              "statement": "formatMoney(7)"
+            },
+            {
+              "typ": "s+",
+              "pattern": "^£12\\.50$",
+              "statement": "formatMoney(12.5)"
+            }
+          ]
+        }
+      ],
+      "additionalFiles": [
+        {
+          "filename": "orders.csv",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "rev-tcd-a1",
+      "name": "2D arrays 1 (trivial): Unscramble the totals",
+      "guide": "a1_test_totals.md",
+      "py": "a1_test_totals.py",
+      "tests": [
+        {
+          "in": [],
+          "out": "Name     Total  Result\\nAsha        45    Pass\\nBen         34    Fail\\nChloe       56    Pass\\nDev         31    Fail"
+        }
+      ]
+    },
+    {
+      "id": "rev-tcd-a2",
+      "name": "2D arrays 2 (simple): Cinema seat booking",
+      "guide": "a2_cinema.md",
+      "py": "a2_cinema.py",
+      "tests": [
+        {
+          "in": [
+            "B",
+            2
+          ],
+          "out": ".*Seat B2 booked\\n      1  2  3  4  5  6\\nA     -  X  X  -  -  -\\nB     -  X  -  X  -  -\\nC     X  X  -  -  -  X\\nD     -  -  -  -  -  -"
+        },
+        {
+          "in": [
+            "A",
+            2
+          ],
+          "out": ".*Sorry, seat A2 is already taken\\n      1  2  3  4  5  6\\nA     -  X  X  -  -  -\\nB     -  -  -  X  -  -\\nC     X  X  -  -  -  X\\nD     -  -  -  -  -  -"
+        },
+        {
+          "in": [
+            "d",
+            6
+          ],
+          "out": ".*Seat D6 booked\\n      1  2  3  4  5  6\\nA     -  X  X  -  -  -\\nB     -  -  -  X  -  -\\nC     X  X  -  -  -  X\\nD     -  -  -  -  -  X"
+        }
+      ]
+    },
+    {
+      "id": "rev-tcd-a3",
+      "name": "2D arrays 3 (medium): Sales table",
+      "guide": "a3_sales_table.md",
+      "py": "a3_sales_table.py",
+      "tests": [
+        {
+          "in": [
+            3
+          ],
+          "out": "Name         Q1       Q2       Q3       Q4      Total\\nAva     1200.50   980.00  1430.25  1100.00    4710.75\\nBilal    860.00  1510.75   990.40  1320.00    4681.15\\nCleo    1405.10  1230.00   875.60  1640.30    5151.00\\nDan      990.00  1045.50  1380.00  1210.20    4625.70\\nTotal   4455.60  4766.25  4676.25  5270.50   19168.60\\n.*Top seller in Q3: Ava (£1430.25)"
+        },
+        {
+          "in": [
+            0,
+            5,
+            2
+          ],
+          "out": "Name         Q1       Q2       Q3       Q4      Total\\nAva     1200.50   980.00  1430.25  1100.00    4710.75\\nBilal    860.00  1510.75   990.40  1320.00    4681.15\\nCleo    1405.10  1230.00   875.60  1640.30    5151.00\\nDan      990.00  1045.50  1380.00  1210.20    4625.70\\nTotal   4455.60  4766.25  4676.25  5270.50   19168.60\\n.*Invalid.*\\n.*Invalid.*\\n.*Top seller in Q2: Bilal (£1510.75)"
+        },
+        {
+          "in": [
+            4
+          ],
+          "out": "Name         Q1       Q2       Q3       Q4      Total\\nAva     1200.50   980.00  1430.25  1100.00    4710.75\\nBilal    860.00  1510.75   990.40  1320.00    4681.15\\nCleo    1405.10  1230.00   875.60  1640.30    5151.00\\nDan      990.00  1045.50  1380.00  1210.20    4625.70\\nTotal   4455.60  4766.25  4676.25  5270.50   19168.60\\n.*Top seller in Q4: Cleo (£1640.30)"
+        }
+      ]
+    },
+    {
+      "id": "rev-tcd-a4",
+      "name": "2D arrays 4 (hard): Minesweeper",
+      "guide": "a4_minesweeper.md",
+      "py": "a4_minesweeper.py",
+      "tests": [
+        {
+          "in": [
+            0,
+            0
+          ],
+          "out": [
+            {
+              "pattern": "There are 5 mines",
+              "ignore": "c"
+            },
+            {
+              "pattern": "Safe! 1 mine\\(s\\) nearby",
+              "ignore": "c"
+            },
+            {
+              "pattern": "Solution:\\n     0  1  2  3  4\n  0  1  \\*  2  1  1\n  1  2  2  2  \\*  1\n  2  \\*  2  3  3  2\n  3  1  2  \\*  \\*  1"
+            }
+          ]
+        },
+        {
+          "in": [
+            2,
+            2
+          ],
+          "out": [
+            {
+              "pattern": "Safe! 3 mine\\(s\\) nearby",
+              "ignore": "c"
+            },
+            {
+              "pattern": "Solution:\\n     0  1  2  3  4\n  0  1  \\*  2  1  1\n  1  2  2  2  \\*  1\n  2  \\*  2  3  3  2\n  3  1  2  \\*  \\*  1"
+            }
+          ]
+        },
+        {
+          "in": [
+            5,
+            0,
+            1
+          ],
+          "out": [
+            {
+              "pattern": "Invalid",
+              "ignore": "c",
+              "count": 1
+            },
+            {
+              "pattern": "BOOM",
+              "ignore": "c"
+            },
+            {
+              "pattern": "Solution:\\n     0  1  2  3  4\n  0  1  \\*  2  1  1\n  1  2  2  2  \\*  1\n  2  \\*  2  3  3  2\n  3  1  2  \\*  \\*  1"
+            }
+          ]
+        },
+        {
+          "in": [
+            0,
+            0
+          ],
+          "out": [
+            {
+              "typ": "c+",
+              "pattern": "def countMines\\(",
+              "ignore": "w"
+            },
+            {
+              "typ": "c+",
+              "pattern": "def countAdjacent\\(",
+              "ignore": "w"
+            },
+            {
+              "typ": "c+",
+              "pattern": "def buildNumberGrid\\(",
+              "ignore": "w"
+            },
+            {
+              "typ": "c+",
+              "pattern": "def displayGrid\\(",
+              "ignore": "w"
+            },
+            {
+              "typ": "s+",
+              "pattern": "^4$",
+              "statement": "countAdjacent([['*', '.', '*'], ['.', '.', '.'], ['*', '.', '*']], 1, 1)"
+            },
+            {
+              "typ": "s+",
+              "pattern": "^2$",
+              "statement": "countAdjacent([['*', '.', '*'], ['.', '.', '.'], ['*', '.', '*']], 0, 1)"
+            },
+            {
+              "typ": "s+",
+              "pattern": "^0$",
+              "statement": "countAdjacent([['*', '.', '*'], ['.', '.', '.'], ['*', '.', '*']], 2, 2)"
+            },
+            {
+              "typ": "s+",
+              "pattern": "^1$",
+              "statement": "countAdjacent([['.', '.'], ['.', '*']], 0, 0)"
+            },
+            {
+              "typ": "s+",
+              "pattern": "^3$",
+              "statement": "countAdjacent([['*', '*'], ['*', '*']], 0, 0)"
+            },
+            {
+              "typ": "s+",
+              "pattern": "^3$",
+              "statement": "countMines([['*', '.'], ['*', '*']])"
+            },
+            {
+              "typ": "s+",
+              "pattern": "\\[\\['\\*', '1'\\], \\['1', '1'\\]\\]",
+              "statement": "buildNumberGrid([['*', '.'], ['.', '.']])"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

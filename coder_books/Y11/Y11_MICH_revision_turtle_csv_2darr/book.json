@@ -1,0 +1,23 @@
+{
+  "name": "GCSE Revision: Turtle, CSV files and 2D arrays",
+  "id": "rev-tcd-root",
+  "children": [
+    {
+      "id": "rev-tcd-start",
+      "name": "Start here: how this book works",
+      "guide": "start_here.md",
+      "py": "start_here.py",
+      "isExample": true
+    },
+    {
+      "id": "rev-tcd-exercises",
+      "name": "Exercises (12 auto-marked tasks)",
+      "bookLink": "exercises/book.json"
+    },
+    {
+      "id": "rev-tcd-solutions",
+      "name": "Model solutions (12 worked examples)",
+      "bookLink": "solutions/book.json"
+    }
+  ]
+}
