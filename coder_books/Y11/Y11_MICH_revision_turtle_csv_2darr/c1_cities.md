@@ -28,6 +28,8 @@ Lima (Peru)
 Cities found: 3
 ```
 
-## Checking
+## Checking your work
 
-Submit runs your program with minimums of 5, 10 and 20.
+Try minimums of 5, 10 and 20. You should find 5 cities, 3 cities (as above) and 0 cities.
+
+When you have finished, compare your program with the model solution on the next page.

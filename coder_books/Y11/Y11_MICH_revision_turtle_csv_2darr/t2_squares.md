@@ -20,6 +20,8 @@ Most of the program has been written for you. Replace each `pass` and numbered c
 
 (4) Add one square and one gap to `xPos`, ready for the next square.
 
-## Checking
+## Checking your work
 
-Press **Submit**: your drawing is compared with the correct drawing for 5, 2 and 1 squares, so it must match exactly. Turn **left**, not right, or your squares will hang below the line.
+Try 5, 2 and 1 squares. With 5 your drawing should match the picture above exactly. If your squares hang below the line, you turned right instead of left.
+
+When you have finished, compare your program with the model solution on the next page.

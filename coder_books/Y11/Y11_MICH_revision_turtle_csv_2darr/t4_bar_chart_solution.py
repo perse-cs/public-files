@@ -9,6 +9,7 @@ GAP = 20
 START_X = -250
 BASE_Y = -150
 SCALE = 3
+LABEL_FONT = ("Arial", 12, "normal")
 
 # GLOBAL VARIABLES
 scores = []
@@ -77,7 +78,7 @@ def writeLabel(x, height, score):
     turtle.penup()
     turtle.goto(x + BAR_WIDTH / 2, BASE_Y + height + 5)
     turtle.color("black")
-    turtle.write(score, align="center")
+    turtle.write(score, align="center", font=LABEL_FONT)
 
 
 # MAIN

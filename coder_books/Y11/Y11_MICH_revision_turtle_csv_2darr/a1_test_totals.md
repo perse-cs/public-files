@@ -26,6 +26,8 @@ Which loop goes through the rows, and which goes through the columns of one row?
 
 `"{:<8}{:>6}{:>8}".format(...)` lays out three values: the first **left**-aligned in 8 characters, then two **right**-aligned in 6 and 8 characters.
 
-## Checking
+## Checking your work
 
-Submit checks that your table matches exactly, spaces included.
+Your table must match the one above exactly, spaces included.
+
+When you have finished, compare your program with the model solution on the next page.

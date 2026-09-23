@@ -32,6 +32,8 @@ When finished, close both files and display how many students passed, e.g. `Pass
 
 `write()` only accepts a **string**, and does not add a newline for you.
 
-## Checking
+## Checking your work
 
-Submit runs your program with pass marks of 100 and 90, then checks both your message and the exact contents of `report.csv`. You can open `report.csv` in the file browser after running your program to check it yourself.
+With a pass mark of 100 you should get `Passed: 3 of 6` - Carys scores exactly 100, so she passes. With 90 you should get `Passed: 4 of 6`. Open `report.csv` in the file browser after each run to check what your program wrote.
+
+When you have finished, compare your program with the model solution on the next page.

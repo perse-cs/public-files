@@ -39,6 +39,8 @@ Top seller in Q3: Ava (£1430.25)
 
 For the Total row, think about which loop needs to be on the outside.
 
-## Checking
+## Checking your work
 
-Submit checks the whole table exactly, spaces included, then the top seller for quarters 3, 2 (after two invalid entries) and 4.
+Your table must match the one above exactly, spaces included. The top sellers are Cleo in Q1, Bilal in Q2 (£1510.75), Ava in Q3 and Cleo in Q4 (£1640.30). Try some invalid quarters such as 0 and 5 first.
+
+When you have finished, compare your program with the model solution on the next page.

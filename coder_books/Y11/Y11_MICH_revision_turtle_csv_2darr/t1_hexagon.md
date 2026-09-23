@@ -18,6 +18,8 @@ Error messages tell you the line number. Check spelling and capital letters care
 
 A subprogram is only called when it is followed by brackets, even when it takes no parameters.
 
-## Checking
+## Checking your work
 
-Press **Submit**: your drawing is compared with the correct drawing, so it must match exactly.
+Your hexagon should match the picture above exactly: orange, filled, and drawn with left turns.
+
+When you have finished, compare your program with the model solution on the next page.

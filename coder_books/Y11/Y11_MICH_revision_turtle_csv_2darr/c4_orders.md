@@ -33,7 +33,7 @@ Total value: £34.59
 
 ## Decomposition
 
-Your program **must** include these subprograms. They are tested on their own, so use exactly these names and parameters:
+Your program **must** include these subprograms. Use exactly these names and parameters:
 
 | Subprogram | What it does |
 |---|---|
@@ -47,6 +47,10 @@ Be careful about the **order** of your validation checks: you cannot look at `or
 
 `"{:.2f}".format(4.2)` gives the string `"4.20"`.
 
-## Checking
+## Checking your work
 
-Submit checks your console messages and the exact contents of `valid_orders.csv`, then calls each of your subprograms directly with test values, including some edge cases.
+Orders 1003, 1004, 1007 and 1008 should be rejected. Open `valid_orders.csv` in the file browser to check it holds exactly 5 lines, each with its line total to 2 decimal places.
+
+Think about edge cases for `isValidOrder`: an empty quantity, a quantity of `"0"`, and a line with only 3 fields. Did you round in `calculateLineTotal`? `12 * 0.35` should give `4.2`, not `4.199999999999999`.
+
+When you have finished, compare your program with the model solution on the next page.

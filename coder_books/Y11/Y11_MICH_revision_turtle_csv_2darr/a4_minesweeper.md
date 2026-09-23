@@ -27,7 +27,7 @@ Solution:
 
 ## Decomposition
 
-Your program **must** include these subprograms. They are tested on their own **with other grids**, so they must work for a grid of any size, using only their parameters:
+Your program **must** include these subprograms. They must work for a grid of **any** size, using only their parameters (never the global `minefield`):
 
 | Subprogram | What it does |
 |---|---|
@@ -57,6 +57,16 @@ Solution:
   ...
 ```
 
-## Checking
+## Checking your work
 
-Submit tries three games, then calls your subprograms directly with small test grids, including corners and a grid full of mines.
+Try row 0 column 0 (1 mine nearby), row 2 column 2 (3 mines nearby) and row 0 column 1 (a mine). Try an invalid row first.
+
+Your subprograms should work for **any** grid, not just `minefield`. Test them by temporarily adding lines such as these to the end of your program:
+
+```
+print(countAdjacent([["*", ".", "*"], [".", ".", "."], ["*", ".", "*"]], 1, 1))   # 4
+print(countAdjacent([[".", "."], [".", "*"]], 0, 0))                              # 1
+print(buildNumberGrid([["*", "."], [".", "."]]))       # [['*', '1'], ['1', '1']]
+```
+
+When you have finished, compare your program with the model solution on the next page.

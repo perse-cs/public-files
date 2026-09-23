@@ -4,6 +4,10 @@
 
 Write a program that draws an archery target made of rings.
 
+With 5 rings, the finished target looks like this:
+
+![preview](turtlepreview)
+
 ## Requirements
 
 Ask the user how many rings to draw using the prompt `How many rings (1-5)? `
@@ -35,6 +39,8 @@ How many rings (1-5)? 3
 Drawing a target with 3 rings
 ```
 
-## Checking
+## Checking your work
 
-Submit checks the console messages, how many red and white circles you filled, and that they are the right sizes, drawn largest first.
+Enter 5 rings: your target should match the picture above. Then try 7 followed by 3 (you should get one `Invalid` message), then 4 and 1. With 4 rings the outer ring is still red, so the colours alternate red, white, red, white from the outside in.
+
+When you have finished, compare your program with the model solution on the next page.

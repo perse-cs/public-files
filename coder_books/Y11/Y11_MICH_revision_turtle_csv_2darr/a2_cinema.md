@@ -27,6 +27,8 @@ C     X  X  -  -  -  X
 D     -  -  -  -  -  -
 ```
 
-## Checking
+## Checking your work
 
-Submit books seats B2, A2 (already taken) and d6 (lower case, which the provided `.upper()` handles), then checks your messages and the seating plan exactly, spaces included.
+Try booking B2 (free), A2 (already taken) and d6 (lower case, which the provided `.upper()` handles). Check your plan lines up exactly like the example, spaces included.
+
+When you have finished, compare your program with the model solution on the next page.

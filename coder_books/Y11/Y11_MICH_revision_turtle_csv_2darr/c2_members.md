@@ -34,6 +34,8 @@ Enter a year: 2018
 No members joined in 2018
 ```
 
-## Checking
+## Checking your work
 
-Submit runs your program with the years 2019, 2021 and 2018.
+Try 2019 (3 members), 2021 (2 members: Ben Taylor and Ella Wright) and 2018 (none).
+
+When you have finished, compare your program with the model solution on the next page.

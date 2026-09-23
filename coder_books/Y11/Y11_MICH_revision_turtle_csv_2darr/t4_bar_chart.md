@@ -4,6 +4,10 @@
 
 Write a program that reads in some test scores and draws them as a colour-coded bar chart.
 
+For example, with 5 bars scoring 80, 50, 20, 95 and 65 the finished chart looks like this:
+
+![preview](turtlepreview)
+
 ## Requirements
 
 Ask how many bars to draw (1 to 6), then ask for a score (0 to 100) for each bar. Any number out of range must be rejected with a message containing the word `Invalid`, and the user asked again.
@@ -14,7 +18,7 @@ Draw one filled bar per score. The first bar has its bottom-left corner at (`STA
 
 Colour each bar by its score: **green** for 70 or more, **orange** for 40 to 69, and **red** below 40.
 
-Write each score in black just above the middle of its bar, using `turtle.write()`.
+Write each score in black just above the middle of its bar, using `turtle.write()` with `font=LABEL_FONT`.
 
 When the chart is drawn, display the highest score and the average score to 1 decimal place:
 
@@ -25,7 +29,7 @@ Average score: 50.0
 
 ## Decomposition
 
-Your program **must** include these subprograms. They are tested on their own, so use exactly these names and parameters:
+Your program **must** include these subprograms. Use exactly these names and parameters:
 
 | Subprogram | What it does |
 |---|---|
@@ -49,6 +53,10 @@ Highest score: 80
 Average score: 50.0
 ```
 
-## Checking
+## Checking your work
 
-Submit runs the program with several sets of inputs and checks the messages, the colours and number of bars, the baseline, and the score labels. It also calls `chooseColour` and `calculateHeight` directly with test values.
+Enter 5 bars scoring 80, 50, 20, 95 and 65: your chart should match the picture above, with a highest score of 95 and an average of 62.0. Then try the example run above, which includes an invalid score. Finally, try entering 0 or 7 bars, and a single bar of 45, which should be orange with an average of 45.0.
+
+Test your functions on their own too, for example by temporarily adding `print(chooseColour(70))` to the end of your program. `chooseColour(70)` should return `"green"`, `chooseColour(69)` and `chooseColour(40)` `"orange"`, `chooseColour(39)` `"red"`, and `calculateHeight(50)` should return 150.
+
+When you have finished, compare your program with the model solution on the next page.
