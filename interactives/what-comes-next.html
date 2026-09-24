@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f5f3ed">
+<title>What Comes Next? · The Perse School</title>
+<style>
+  :root { color-scheme: light; --ink:#203d38; --muted:#526761; --paper:#f5f3ed; --green:#205c4c; --line:#d8dfd7; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink); font-family:ui-rounded,"Trebuchet MS",Arial,sans-serif; }
+  button { font:inherit; cursor:pointer; touch-action:manipulation; -webkit-tap-highlight-color:transparent; }
+  button:focus-visible, summary:focus-visible, input:focus-visible { outline:3px solid #7950b5; outline-offset:4px; }
+  button:disabled { cursor:default; opacity:.4; }
+  .wrap { max-width:1060px; margin:auto; padding:25px 30px 24px; }
+  header { display:flex; align-items:center; justify-content:space-between; gap:16px; margin-bottom:28px; }
+  .school { font-size:15px; font-weight:bold; letter-spacing:.02em; }
+  .school span { display:block; color:var(--muted); font-size:12px; font-weight:normal; margin-top:5px; }
+  .tag { font-size:12px; font-weight:bold; padding:9px 13px; border:1px solid var(--line); border-radius:30px; }
+  .intro { position:relative; margin-bottom:22px; }
+  h1 { font-size:clamp(35px,5.5vw,57px); letter-spacing:-.055em; line-height:1.07; margin:0 0 12px; }
+  h1 span { color:#427d65; }
+  .intro p { color:var(--muted); font-size:17px; margin:0; line-height:1.5; }
+  .builder { background:white; border:1px solid var(--line); border-radius:23px; overflow:hidden; box-shadow:0 7px 0 #e8eae1; }
+  .sentence-area { padding:23px 26px 19px; background:#edf3e9; }
+  .eyebrow { font-size:11px; font-weight:bold; text-transform:uppercase; letter-spacing:.12em; }
+  .sentence-top { display:flex; justify-content:space-between; align-items:center; gap:12px; color:var(--muted); }
+  #word-count { font-size:12px; }
+  #sentence { font-size:clamp(26px,4vw,37px); line-height:1.4; font-weight:bold; margin:16px 0; min-height:53px; overflow-wrap:anywhere; }
+  .cursor { display:inline-block; width:3px; height:.9em; background:#67987c; margin-left:8px; vertical-align:-.02em; }
+  .sentence-bottom { display:flex; justify-content:space-between; align-items:center; gap:12px; }
+  .hint { font-size:13px; color:var(--muted); margin:0; line-height:1.5; }
+  .actions { display:flex; gap:8px; flex-shrink:0; }
+  .quiet { background:transparent; border:1px solid #bacbbe; border-radius:9px; padding:10px 13px; min-height:44px; font-size:13px; color:var(--ink); }
+  .quiet:hover:not(:disabled) { background:#dfe9dc; }
+  .choices-area { padding:22px 26px 25px; }
+  .choice-heading { display:flex; justify-content:space-between; align-items:center; gap:12px; margin-bottom:16px; }
+  h2 { font-size:18px; margin:0; letter-spacing:-.02em; }
+  #choice-count { color:var(--muted); font-size:12px; }
+  .choice-layout { display:grid; grid-template-columns:minmax(0,1fr) 260px; gap:24px; align-items:start; }
+  #choices { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px; }
+  #custom-form label { display:block; margin-bottom:10px; font-size:15px; }
+  .custom-row { display:flex; gap:8px; }
+  #custom-word { width:100%; min-width:0; min-height:54px; border:1px solid #bacbbe; border-radius:10px; padding:12px; font:inherit; color:var(--ink); background:white; }
+  #custom-help { color:var(--muted); font-size:12px; line-height:1.5; margin:10px 0 0; }
+  #custom-error { color:#943e35; font-size:13px; line-height:1.5; margin:8px 0 0; }
+  .word { min-height:54px; border:1px solid #d8dce8; border-bottom-width:3px; border-radius:11px; background:#f0effa; color:#393c63; font-size:18px; font-weight:bold; padding:11px 6px; overflow-wrap:anywhere; transition:background .12s,transform .12s; }
+  .word:nth-child(3n+2) { background:#eaf3f4; border-color:#cce0df; color:#28585b; }
+  .word:nth-child(3n) { background:#faf1dc; border-color:#e9dcbb; color:#685329; }
+  .word:hover { transform:translateY(-2px); filter:brightness(.97); }
+  .word:active { transform:translateY(1px); }
+  .word.finish { background:var(--green); color:white; border-color:#174536; font-size:16px; }
+  .under-grid { margin:15px 0 0; font-size:12px; color:var(--muted); line-height:1.5; }
+  #notice { min-height:25px; margin:18px 2px 9px; color:var(--green); font-size:14px; font-weight:bold; }
+  .recent { padding:20px 23px; border:1px solid var(--line); border-radius:17px; background:#ffffff9c; }
+  .recent-top { display:flex; align-items:center; justify-content:space-between; gap:12px; }
+  .recent h2 span { font-size:12px; font-weight:normal; margin-left:7px; color:var(--muted); }
+  #recent-list { list-style:none; padding:0; margin:12px 0 0; display:grid; grid-template-columns:1fr 1fr; gap:8px 22px; }
+  #recent-list li { line-height:1.5; padding:10px 0 10px 15px; border-left:3px solid #d4decf; font-size:15px; overflow-wrap:anywhere; }
+  #recent-list li:first-child { border-color:#548968; }
+  #empty { color:var(--muted); font-size:14px; margin:14px 0 3px; line-height:1.5; }
+  #storage-note { font-size:12px; color:var(--muted); margin:13px 0 0; }
+  details { margin:23px 2px 0; color:var(--muted); font-size:13px; line-height:1.6; }
+  summary { cursor:pointer; min-height:35px; font-weight:bold; color:var(--ink); }
+  details p { max-width:780px; margin:4px 0 10px; }
+  footer { margin-top:12px; font-size:11px; color:var(--muted); display:flex; justify-content:space-between; gap:15px; }
+  dialog { border:1px solid var(--line); border-radius:20px; padding:27px; max-width:400px; width:calc(100% - 36px); color:var(--ink); box-shadow:0 20px 80px #203d3833; }
+  dialog::backdrop { background:#18383066; }
+  dialog p { line-height:1.6; color:var(--muted); }
+  dialog form { display:flex; gap:10px; justify-content:flex-end; }
+  .primary { background:var(--green); color:white; border:0; border-radius:9px; padding:12px 16px; min-height:44px; }
+  @media(max-width:650px) { .wrap { padding:19px 16px; } header { margin-bottom:25px; } .tag { font-size:10px; padding:8px; } .school { font-size:13px; } .intro p { font-size:15px; } .sentence-area,.choices-area { padding:19px 17px; } #choices { grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px; } .sentence-bottom { align-items:flex-start; flex-direction:column; } .word { font-size:16px; } #recent-list { grid-template-columns:1fr; } .recent { padding:17px; } }
+  @media(max-width:760px) { .choice-layout { grid-template-columns:1fr; gap:20px; } }
+  @media(max-width:420px) { .word { font-size:14px; } }
+  @media(prefers-reduced-motion:reduce) { * { transition:none!important; } }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <section class="intro"><h1>What comes <span>next?</span></h1></section>
+  <section class="builder" aria-label="Sentence builder">
+    <div class="sentence-area">
+      <div class="sentence-top"><span class="eyebrow">Your sentence</span><span id="word-count">2 words</span></div>
+      <p id="sentence" aria-live="polite" aria-atomic="true"><span id="sentence-text">I am</span><span class="cursor" aria-hidden="true"></span></p>
+      <div class="sentence-bottom"><p class="hint">Tap a word below. Where will your sentence go?</p><div class="actions"><button id="undo" class="quiet" disabled>↶ Undo</button><button id="restart" class="quiet" disabled>Start again</button></div></div>
+    </div>
+    <div class="choices-area"><div class="choice-heading"><h2>Choose your next word</h2><span id="choice-count"></span></div><div class="choice-layout"><div id="choices" role="group" aria-label="Next words"></div><form id="custom-form" novalidate><label for="custom-word">Or type your own:</label><div class="custom-row"><input id="custom-word" type="text" maxlength="30" autocomplete="off" aria-describedby="custom-help custom-error" placeholder="One word"><button id="add-word" class="primary" type="submit">Add</button></div><p id="custom-help">Add one word at a time.</p><p id="custom-error" role="alert"></p></form></div><p class="under-grid">Ready to finish? Choose <strong>● Full stop</strong> when it appears.</p></div>
+  </section>
+  <p id="notice" role="status" aria-live="polite"></p>
+  <section class="recent" aria-labelledby="recent-heading"><div class="recent-top"><h2 id="recent-heading">Recent sentences <span>Last 10</span></h2><button id="clear" class="quiet" disabled>Clear history</button></div><p id="empty">Your sentence could be the first! Finish with a full stop to put it here.</p><ol id="recent-list" aria-label="Completed sentences, newest first"></ol><p id="storage-note" hidden></p></section>
+  <details><summary>Is this how AI writes?</summary><p>AI text generators build text one small piece at a time. Those pieces are called <strong>tokens</strong>: they can be whole words, parts of words, or punctuation. A model uses the text so far to predict possible next tokens.</p><p>Here, <strong>you</strong> make the choices. Our demo follows a word map written by people, with no AI model running. Every button is one possible next word, and all buttons are shown equally — they are not probability scores.</p><p><strong>Try this:</strong> start two sentences with the same words, then take a different turn. How much does one choice change the meaning?</p></details>
+  <noscript><p>Please enable JavaScript to use the sentence builder.</p></noscript>
+</main>
+<dialog id="clear-dialog" aria-labelledby="clear-title"><h2 id="clear-title">Clear history and custom words?</h2><p>This removes recent sentences and all added words, then starts a new sentence. The original word choices stay.</p><form method="dialog"><button class="quiet" value="cancel" autofocus>Keep them</button><button class="primary" value="clear">Clear history</button></form></dialog>
+
+<!-- EDITABLE WORD MAP: each family combines "I am", a start, one middle,
+     and optionally a tail. The script builds a branching tree from these
+     combinations. Children always select ONE WORD at a time.
+     Keep complete sentences between 6 and 15 words. No external files needed. -->
+<script id="word-map" type="application/json">
+{
+  "tails": ["today", "tomorrow", "with my friends", "after school", "in the garden", "under the stars", "before breakfast", "for the first time", "just for fun", "like a superhero", "on a rainy day", "at the weekend", "with a huge smile", "while the world sleeps", "because I love a challenge", "and it feels amazing", "one tiny step at a time", "in my imagination"],
+  "families": [
+    {"start":"feeling", "middles":["happy about my new idea", "curious about the universe", "excited to learn something new", "brave enough to try again", "proud of my little robot", "ready for a new adventure", "hopeful about the future", "calm as a sleeping cat", "creative and full of ideas", "mighty like a tiny dragon", "sleepy after a big adventure", "wonderful for no particular reason"]},
+    {"start":"not", "middles":["afraid to make a mistake", "sure where my robot went", "giving up on my idea", "actually a secret space penguin", "leaving without my lucky socks", "too old to build sandcastles", "finished exploring this strange planet", "quite ready to stop learning", "convinced that cats cannot code", "going to forget this adventure", "alone on this exciting journey", "planning to become a potato"]},
+    {"start":"great", "middles":["at solving tricky puzzles", "at making people smile", "at inventing silly dances", "at finding hidden patterns", "at asking interesting questions", "at building cardboard castles", "at helping my friends", "at imagining new worlds", "at spotting tiny details", "at learning from mistakes", "at drawing friendly monsters", "at trying something different"]},
+    {"start":"ready", "middles":["to explore a secret island", "to build a friendly robot", "to solve a tricky puzzle", "to create my own game", "to discover a new planet", "to learn a magic trick", "to help a lost dragon", "to design a flying bicycle", "to make somebody smile", "to ask a big question", "to try something completely new", "to invent a dancing hat"]},
+    {"start":"curious", "middles":["about how computers think", "about why stars twinkle", "about what robots dream", "about where ideas come from", "about how games are made", "about why penguins waddle", "about what lies beyond Earth", "about how octopuses solve puzzles", "about why music feels magical", "about how trees communicate", "about what makes code work", "about where my imagination leads"]},
+    {"start":"building", "middles":["a robot that can dance", "a castle made of cushions", "a spaceship for my cat", "a game about flying pancakes", "a bridge for tiny dragons", "a machine that sorts sweets", "a secret underwater computer", "a tower taller than me", "a rocket powered by laughter", "an obstacle course for hamsters", "my very own digital world", "something nobody has seen before"]},
+    {"start":"learning", "middles":["to code a new game", "to speak like a robot", "to draw a purple dragon", "to solve a secret code", "to juggle imaginary jellyfish", "to think like a scientist", "to make a website", "to play a tiny piano", "to train my pet dinosaur", "something surprising about computers", "how to spot a pattern", "why mistakes can be useful"]},
+    {"start":"exploring", "middles":["a forest full of robots", "a planet made of jelly", "a castle in the clouds", "a world inside a computer", "an island of friendly dinosaurs", "an ocean full of secrets", "the mysteries of my imagination", "the smallest moon in space", "a library beneath the sea", "a maze with moving walls", "some brilliant new ideas", "somewhere beyond the rainbow"]},
+    {"start":"dreaming", "middles":["of a trip to Mars", "of robots that plant trees", "of castles made of cake", "of a world without homework", "of dragons wearing tiny hats", "of flying over the city", "of games I could create", "of a talking pet cloud", "about my next big adventure", "about a bicycle with wings", "about becoming a game designer", "about swimming with space whales"]},
+    {"start":"making", "middles":["a game for my friends", "a map of imaginary islands", "a hat for a dinosaur", "a picture using only triangles", "a song about my robot", "a spaceship out of cardboard", "a secret code to crack", "a tiny garden for beetles", "an invention to help people", "an animation about a penguin", "something wonderful out of nothing", "my first computer programme"]},
+    {"start":"inventing", "middles":["a robot that tells jokes", "a backpack that can fly", "a pencil that draws dreams", "a machine that catches clouds", "a telescope for spotting dragons", "a skateboard with square wheels", "a keyboard made of marshmallows", "a sandwich that never ends", "an umbrella for a giraffe", "an alarm clock that whispers", "the world's smallest roller coaster", "something to make life easier"]},
+    {"start":"thinking", "middles":["about my next great invention", "about how to help others", "about a very tricky puzzle", "about what makes me curious", "about robots playing hide and seek", "about a new game idea", "about the future of computers", "about a city under water", "of a name for my robot", "of a better way to travel", "of something nobody has tried", "like a detective solving mysteries"]},
+    {"start":"travelling", "middles":["to Mars in my imagination", "through a forest of stars", "across an ocean of jelly", "on a giant friendly turtle", "inside a miniature yellow submarine", "with a team of explorers", "past a thousand tiny planets", "towards a castle in space", "around the world by balloon", "beyond the edge of the map", "between two mysterious floating islands", "back to the dinosaur age"]},
+    {"start":"helping", "middles":["a robot learn to dance", "a dragon find its glasses", "a friend solve a puzzle", "my team build something brilliant", "a penguin design a website", "a scientist count the stars", "a dinosaur learn good manners", "a lost alien get home", "my friends invent a game", "someone discover a new skill", "the world's most confused wizard", "an octopus learn to juggle"]},
+    {"start":"designing", "middles":["a game with friendly monsters", "a robot for exploring oceans", "a school on the moon", "a playground in the clouds", "a spaceship shaped like a duck", "a website about amazing animals", "a maze for clever mice", "a colourful new computer keyboard", "an app that identifies trees", "an outfit for a space explorer", "the ultimate tree house", "my own imaginary city"]},
+    {"start":"wondering", "middles":["if robots can get hiccups", "if clouds taste like candyfloss", "if aliens enjoy board games", "if dinosaurs would like computers", "if my cat understands code", "if the moon needs a garden", "whether trees have secret conversations", "whether fish ever feel thirsty", "what my next invention could be", "what a dragon dreams about", "how a computer remembers things", "why the best ideas feel surprising"]},
+    {"start":"pretending", "middles":["to be a friendly alien", "to be a secret agent", "to be a dinosaur detective", "to be a robot chef", "to live inside a game", "to fly a tiny spaceship", "to understand the language of cats", "to discover an invisible planet", "to captain a submarine", "to run a school for dragons", "that my bedroom is a castle", "that the floor is purple jelly"]},
+    {"start":"searching", "middles":["for a missing robot hamster", "for a secret underwater city", "for the perfect game idea", "for a dragon's favourite biscuit", "for clues in a computer game", "for a planet with purple trees", "for a new way to learn", "for the world's tiniest dinosaur", "for a pattern in the stars", "for an answer to my question", "for treasure inside my imagination", "for somewhere to park my spaceship"]},
+    {"start":"celebrating", "middles":["my first working computer programme", "a brilliant idea from my friend", "the discovery of a new planet", "a small but important achievement", "the return of my robot", "a victory over a tricky puzzle", "another wonderful day of learning", "the world's first penguin astronaut", "my dragon's hundredth birthday party", "a successful mission to Mars", "the power of asking questions", "something that makes me happy"]},
+    {"start":"excited", "middles":["to make my own game", "to meet a friendly robot", "to explore a brand new world", "to try a different idea", "to crack a secret code", "to show my friends my invention", "to find out what happens next", "about learning something surprising", "about my next big adventure", "about the possibilities of computing", "about a trip to the stars", "about a new kind of puzzle"]}
+  ]
+}
+</script>
+<script>
+'use strict';
+const map = JSON.parse(document.getElementById('word-map').textContent);
+function createTree() {
+const root = { next: new Map(), complete: false };
+// Shared prefixes form a trie. A full stop is offered only at a complete sentence.
+// The length rule applies to every route, including optional endings.
+let sentenceTotal = 0;
+for (const family of map.families) {
+  for (const middle of family.middles) {
+    for (const tail of ['', ...map.tails]) {
+      const words = `${family.start} ${middle}${tail ? ' ' + tail : ''}`.split(/\s+/);
+      if (words.length + 2 < 6 || words.length + 2 > 15) continue;
+      let node = root;
+      for (const word of words) {
+        if (!node.next.has(word)) node.next.set(word, { next: new Map(), complete: false });
+        node = node.next.get(word);
+      }
+      if (!node.complete) sentenceTotal++;
+      node.complete = true;
+    }
+  }
+}
+return root;
+}
+let root = createTree();
+const $ = id => document.getElementById(id);
+const storageKey = 'perse-what-comes-next-data-v2';
+const legacyKey = 'perse-what-comes-next-history-v1';
+let selected = [], nodes = [root], history = [], customPaths = [], storageOK = true;
+const validWord = word => typeof word === 'string' && word.length <= 30 && /^[\p{L}\p{N}]+(?:['’\-][\p{L}\p{N}]+)*$/u.test(word);
+function restore(raw) {
+  const saved = JSON.parse(raw || '{}');
+  history = Array.isArray(saved.history) ? saved.history.filter(s => typeof s === 'string' && s.length <= 450 && s.startsWith('I am ') && s.endsWith('.')).slice(0,10) : [];
+  customPaths = Array.isArray(saved.customPaths) ? saved.customPaths.filter(path => Array.isArray(path) && path.length > 0 && path.length <= 13 && path.every(validWord)) : [];
+  root = createTree();
+  for (const path of customPaths) addPath(path);
+  // Retain the active sentence when another tab updates the word map, if possible.
+  nodes = [root];
+  for (const word of selected) {
+    const next = nodes[nodes.length - 1].next.get(word);
+    if (!next) { selected = []; nodes = [root]; break; }
+    nodes.push(next);
+  }
+}
+function addPath(path) {
+  let node = root;
+  for (const word of path) {
+    if (!node.next.has(word)) node.next.set(word, {next:new Map(), complete:false, custom:true});
+    node = node.next.get(word);
+  }
+}
+try {
+  const saved = localStorage.getItem(storageKey);
+  restore(saved === null ? JSON.stringify({history:JSON.parse(localStorage.getItem(legacyKey) || '[]')}) : saved);
+} catch { storageOK = false; }
+function persist() {
+  // Static HTML cannot rewrite itself. Store the custom branch data locally,
+  // then merge it into the original trie on every page load.
+  try { localStorage.setItem(storageKey, JSON.stringify({history, customPaths})); storageOK = true; }
+  catch { storageOK = false; }
+}
+function renderHistory() {
+  $('recent-list').replaceChildren();
+  for (const sentence of history) {
+    const li = document.createElement('li');
+    li.textContent = sentence;
+    $('recent-list').append(li);
+  }
+  $('empty').hidden = history.length > 0;
+  $('clear').disabled = history.length === 0 && customPaths.length === 0;
+  $('storage-note').hidden = storageOK;
+  $('storage-note').textContent = storageOK ? '' : 'Changes are available for this visit, but this browser could not save them for next time.';
+}
+function render(focusChoice = false) {
+  const node = nodes[nodes.length - 1];
+  const atLimit = selected.length + 2 >= 15;
+  const canFinish = node.complete || (selected.length + 2 >= 6 && nodes.some(n => n.custom));
+  $('sentence-text').textContent = ['I', 'am', ...selected].join(' ');
+  $('word-count').textContent = `${selected.length + 2} / 15 words`;
+  $('undo').disabled = $('restart').disabled = selected.length === 0;
+  $('choices').replaceChildren();
+  $('custom-word').disabled = $('add-word').disabled = atLimit;
+  $('custom-word').value = '';
+  $('custom-error').textContent = '';
+  $('custom-word').removeAttribute('aria-invalid');
+  $('custom-help').textContent = atLimit ? '15 words! Choose a full stop to finish.' : node.next.size === 0 && !canFinish ? `Keep adding words. You can finish from 6 words (${selected.length + 2} so far).` : 'Add one word at a time.';
+  for (const [word, next] of node.next) {
+    const button = document.createElement('button');
+    button.type = 'button'; button.className = 'word'; button.textContent = word;
+    button.addEventListener('click', event => {
+      const keyboard = event.detail === 0;
+      selected.push(word); nodes.push(next); $('notice').textContent = '';
+      render(keyboard);
+    });
+    $('choices').append(button);
+  }
+  if (canFinish) {
+    const button = document.createElement('button');
+    button.type = 'button'; button.className = 'word finish'; button.textContent = '● Full stop';
+    button.setAttribute('aria-label', 'Full stop. Save your sentence.');
+    button.addEventListener('click', event => finish(event.detail === 0));
+    $('choices').append(button);
+  }
+  const count = node.next.size + Number(canFinish);
+  $('choice-count').textContent = `${count} ${count === 1 ? 'choice' : 'choices'}`;
+  if (focusChoice) $('choices').firstElementChild?.focus({preventScroll:true});
+}
+$('custom-form').addEventListener('submit', event => {
+  event.preventDefault();
+  if (selected.length + 2 >= 15) return;
+  const word = $('custom-word').value.trim().normalize('NFC');
+  if (!validWord(word)) {
+    $('custom-error').textContent = 'Enter one word (up to 30 letters or numbers). Apostrophes and hyphens are welcome.';
+    $('custom-word').setAttribute('aria-invalid', 'true');
+    $('custom-word').focus(); return;
+  }
+  const node = nodes[nodes.length - 1];
+  // Reuse an existing choice when only its capitalisation differs.
+  const existing = [...node.next.keys()].find(key => key.toLocaleLowerCase('en-GB') === word.toLocaleLowerCase('en-GB'));
+  const chosen = existing || word;
+  if (!existing) {
+    const path = [...selected, chosen];
+    customPaths.push(path); addPath(path); persist(); renderHistory();
+  }
+  selected.push(chosen); nodes.push(node.next.get(chosen));
+  $('notice').textContent = ''; render();
+  if ($('custom-word').disabled) $('choices').firstElementChild?.focus({preventScroll:true});
+  else $('custom-word').focus({preventScroll:true});
+});
+function finish(keyboard) {
+  const sentence = ['I', 'am', ...selected].join(' ') + '.';
+  history.unshift(sentence); history = history.slice(0,10); persist(); renderHistory();
+  selected = []; nodes = [root]; render(keyboard);
+  $('notice').textContent = 'Sentence saved.';
+}
+$('undo').addEventListener('click', event => { selected.pop(); nodes.pop(); $('notice').textContent = ''; render(event.detail === 0); });
+$('restart').addEventListener('click', event => { selected = []; nodes = [root]; $('notice').textContent = ''; render(event.detail === 0); });
+$('clear').addEventListener('click', () => { $('clear-dialog').returnValue = ''; $('clear-dialog').showModal(); });
+$('clear-dialog').addEventListener('close', () => {
+  if ($('clear-dialog').returnValue === 'clear') {
+    history = []; customPaths = []; selected = []; root = createTree(); nodes = [root];
+    persist(); renderHistory(); render(); $('notice').textContent = 'History and custom words cleared.';
+    $('choices').firstElementChild?.focus({preventScroll:true});
+  }
+});
+// Keep history and custom branches in sync across tabs on the same device.
+window.addEventListener('storage', event => {
+  if (event.key !== storageKey && event.key !== null) return;
+  try { restore(event.newValue); renderHistory(); render(); } catch { /* Ignore malformed external data. */ }
+});
+render(); renderHistory();
+</script>
+</body>
+</html>
