@@ -1,0 +1,63 @@
+{
+  "name": "A Level Coursework Showcase",
+  "id": "cwork-demo",
+  "children": [
+    {
+      "id": "cwork-welcome",
+      "name": "Welcome",
+      "guide": "welcome.md",
+      "py": "welcome.py",
+      "isExample": true
+    },
+    {
+      "id": "cwork-example-a",
+      "name": "Example A: Blokus-style strategy game",
+      "bookLink": "./example_a/book.json"
+    },
+    {
+      "id": "cwork-example-b",
+      "name": "Example B: Metro journey planner",
+      "bookLink": "./example_b/book.json"
+    },
+    {
+      "id": "cwork-example-c",
+      "name": "Example C: Boolean algebra simplifier",
+      "bookLink": "./example_c/book.json"
+    },
+    {
+      "id": "cwork-example-d",
+      "name": "Example D: Othello",
+      "bookLink": "./example_d/book.json"
+    },
+    {
+      "id": "cwork-example-e",
+      "name": "Example E: Train Tracks puzzle",
+      "bookLink": "./example_e/book.json"
+    },
+    {
+      "id": "cwork-example-f",
+      "name": "Example F: Connect Four",
+      "bookLink": "./example_f/book.json"
+    },
+    {
+      "id": "cwork-example-g",
+      "name": "Example G: Battleships",
+      "bookLink": "./example_g/book.json"
+    },
+    {
+      "id": "cwork-example-h",
+      "name": "Example H: Maze Explorer",
+      "bookLink": "./example_h/book.json"
+    },
+    {
+      "id": "cwork-example-i",
+      "name": "Example I: Dots and Boxes",
+      "bookLink": "./example_i/book.json"
+    },
+    {
+      "id": "cwork-example-j",
+      "name": "Example J: Killer Sudoku",
+      "bookLink": "./example_j/book.json"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Example G: Battleships",
+  "id": "cwork-example-g-book",
+  "children": [
+    {
+      "id": "cwork-example-g-run",
+      "name": "Run the program",
+      "guide": "guide.md",
+      "py": "main.py",
+      "isExample": true,
+      "additionalFiles": [
+        {
+          "filename": "fleet_engine.py",
+          "visible": true
+        },
+        {
+          "filename": "fleet_errors.py",
+          "visible": true
+        }
+      ]
+    }
+  ]
+}

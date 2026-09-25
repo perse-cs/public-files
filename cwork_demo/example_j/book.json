@@ -1,0 +1,27 @@
+{
+  "name": "Example J: Killer Sudoku",
+  "id": "cwork-example-j-book",
+  "children": [
+    {
+      "id": "cwork-example-j-run",
+      "name": "Run the program",
+      "guide": "guide.md",
+      "py": "main.py",
+      "isExample": true,
+      "additionalFiles": [
+        {
+          "filename": "cage_shapes.json",
+          "visible": true
+        },
+        {
+          "filename": "sudoku_engine.py",
+          "visible": true
+        },
+        {
+          "filename": "sudoku_generator.py",
+          "visible": true
+        }
+      ]
+    }
+  ]
+}

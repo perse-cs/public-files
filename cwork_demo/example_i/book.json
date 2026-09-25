@@ -1,0 +1,23 @@
+{
+  "name": "Example I: Dots and Boxes",
+  "id": "cwork-example-i-book",
+  "children": [
+    {
+      "id": "cwork-example-i-run",
+      "name": "Run the program",
+      "guide": "guide.md",
+      "py": "main.py",
+      "isExample": true,
+      "additionalFiles": [
+        {
+          "filename": "boxes_ai.py",
+          "visible": true
+        },
+        {
+          "filename": "boxes_engine.py",
+          "visible": true
+        }
+      ]
+    }
+  ]
+}
