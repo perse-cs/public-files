@@ -12,7 +12,7 @@ SCALE = 3
 LABEL_FONT = ("Arial", 12, "normal")
 
 # GLOBAL VARIABLES
-
+myTurtle = turtle.Turtle()
 
 # SUBPROGRAMS
 

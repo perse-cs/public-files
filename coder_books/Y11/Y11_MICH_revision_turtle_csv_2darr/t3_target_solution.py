@@ -7,6 +7,7 @@ MIN_RINGS = 1
 MAX_RINGS = 5
 
 # GLOBAL VARIABLES
+myTurtle = turtle.Turtle()
 numRings = 0
 radius = 0
 colour = ""
@@ -19,7 +20,7 @@ while numRings < MIN_RINGS or numRings > MAX_RINGS:
 
 print("Drawing a target with " + str(numRings) + " rings")
 
-turtle.pencolor("black")
+myTurtle.pencolor("black")
 
 # Largest circle first, so each smaller one is drawn on top of it
 for ring in range(numRings):
@@ -29,13 +30,13 @@ for ring in range(numRings):
     else:
         colour = "white"
 
-    turtle.penup()
-    turtle.goto(0, -radius)
-    turtle.pendown()
-    turtle.fillcolor(colour)
-    turtle.begin_fill()
-    turtle.circle(radius)
-    turtle.end_fill()
+    myTurtle.penup()
+    myTurtle.goto(0, -radius)
+    myTurtle.pendown()
+    myTurtle.fillcolor(colour)
+    myTurtle.begin_fill()
+    myTurtle.circle(radius)
+    myTurtle.end_fill()
 
-turtle.hideturtle()
+myTurtle.hideturtle()
 turtle.done()

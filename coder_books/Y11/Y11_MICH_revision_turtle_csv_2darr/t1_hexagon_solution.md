@@ -9,8 +9,8 @@ A model solution for **Turtle 1**. Run it to see the hexagon.
 | `import Turtle` | No module called `Turtle` (capital T) | `import turtle` |
 | `ANGLE = 360 / SIDE` | `SIDE` has never been defined | `360 / SIDES` |
 | `for count in range(SIDES)` | Syntax error: missing colon | add `:` |
-| `turtle.forwards(...)` | No such command | `turtle.forward(...)` |
-| `turtle.end_fill` | **Logic error**: without brackets the subprogram is never called, so the shape is not filled | `turtle.end_fill()` |
+| `myTurtle.forwards(...)` | No such command | `myTurtle.forward(...)` |
+| `myTurtle.end_fill` | **Logic error**: without brackets the subprogram is never called, so the shape is not filled | `myTurtle.end_fill()` |
 
 ## Worth noticing
 

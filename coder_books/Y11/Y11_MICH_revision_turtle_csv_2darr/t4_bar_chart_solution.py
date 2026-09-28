@@ -12,6 +12,7 @@ SCALE = 3
 LABEL_FONT = ("Arial", 12, "normal")
 
 # GLOBAL VARIABLES
+myTurtle = turtle.Turtle()
 scores = []
 numBars = 0
 newScore = 0
@@ -51,34 +52,34 @@ def drawAxis(barCount):
     # Draws a black baseline under the bars
     axisLength = 0
     axisLength = barCount * (BAR_WIDTH + GAP) + GAP
-    turtle.penup()
-    turtle.goto(START_X - GAP, BASE_Y)
-    turtle.pendown()
-    turtle.color("black")
-    turtle.forward(axisLength)
+    myTurtle.penup()
+    myTurtle.goto(START_X - GAP, BASE_Y)
+    myTurtle.pendown()
+    myTurtle.color("black")
+    myTurtle.forward(axisLength)
 
 
 def drawBar(x, height, colour):
     # Draws one filled bar with its bottom-left corner at (x, BASE_Y)
-    turtle.penup()
-    turtle.goto(x, BASE_Y)
-    turtle.pendown()
-    turtle.color(colour)
-    turtle.begin_fill()
+    myTurtle.penup()
+    myTurtle.goto(x, BASE_Y)
+    myTurtle.pendown()
+    myTurtle.color(colour)
+    myTurtle.begin_fill()
     for side in range(2):
-        turtle.forward(BAR_WIDTH)
-        turtle.left(90)
-        turtle.forward(height)
-        turtle.left(90)
-    turtle.end_fill()
+        myTurtle.forward(BAR_WIDTH)
+        myTurtle.left(90)
+        myTurtle.forward(height)
+        myTurtle.left(90)
+    myTurtle.end_fill()
 
 
 def writeLabel(x, height, score):
     # Writes the score in black just above the middle of its bar
-    turtle.penup()
-    turtle.goto(x + BAR_WIDTH / 2, BASE_Y + height + 5)
-    turtle.color("black")
-    turtle.write(score, align="center", font=LABEL_FONT)
+    myTurtle.penup()
+    myTurtle.goto(x + BAR_WIDTH / 2, BASE_Y + height + 5)
+    myTurtle.color("black")
+    myTurtle.write(score, align="center", font=LABEL_FONT)
 
 
 # MAIN
@@ -102,5 +103,5 @@ for index in range(len(scores)):
 print("Highest score: " + str(highest))
 print("Average score: " + str(round(total / numBars, 1)))
 
-turtle.hideturtle()
+myTurtle.hideturtle()
 turtle.done()

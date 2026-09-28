@@ -8,6 +8,7 @@ START_X = -200
 START_Y = 0
 
 # GLOBAL VARIABLES
+myTurtle = turtle.Turtle()
 numSquares = 0
 xPos = 0
 colour = ""
@@ -15,15 +16,15 @@ colour = ""
 # SUBPROGRAMS
 def drawSquare(x, y, size, fillColour):
     # Draws a filled square with its bottom-left corner at (x, y)
-    turtle.penup()
-    turtle.goto(x, y)
-    turtle.pendown()
-    turtle.color(fillColour)
-    turtle.begin_fill()
+    myTurtle.penup()
+    myTurtle.goto(x, y)
+    myTurtle.pendown()
+    myTurtle.color(fillColour)
+    myTurtle.begin_fill()
     for side in range(4):
-        turtle.forward(size)
-        turtle.left(90)
-    turtle.end_fill()
+        myTurtle.forward(size)
+        myTurtle.left(90)
+    myTurtle.end_fill()
 
 # MAIN
 numSquares = int(input("How many squares (1-8)? "))
@@ -37,5 +38,5 @@ for count in range(numSquares):
     drawSquare(xPos, START_Y, SIZE, colour)
     xPos = xPos + SIZE + GAP
 
-turtle.hideturtle()
+myTurtle.hideturtle()
 turtle.done()

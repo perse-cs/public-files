@@ -7,7 +7,7 @@ MIN_RINGS = 1
 MAX_RINGS = 5
 
 # GLOBAL VARIABLES
-
+myTurtle = turtle.Turtle()
 
 # MAIN
 

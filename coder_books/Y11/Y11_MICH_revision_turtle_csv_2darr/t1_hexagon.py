@@ -7,14 +7,17 @@ SIDE_LENGTH = 80
 ANGLE = 360 / SIDE
 COLOUR = "orange"
 
+# GLOBAL VARIABLES
+myTurtle = turtle.Turtle()
+
 # MAIN
-turtle.color(COLOUR)
-turtle.begin_fill()
+myTurtle.color(COLOUR)
+myTurtle.begin_fill()
 
 for count in range(SIDES)
-    turtle.forwards(SIDE_LENGTH)
-    turtle.left(ANGLE)
+    myTurtle.forwards(SIDE_LENGTH)
+    myTurtle.left(ANGLE)
 
-turtle.end_fill
-turtle.hideturtle()
+myTurtle.end_fill
+myTurtle.hideturtle()
 turtle.done()

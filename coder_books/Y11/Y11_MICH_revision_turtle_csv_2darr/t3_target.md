@@ -26,9 +26,11 @@ Hide the turtle when the drawing is finished.
 
 ## Useful turtle commands
 
-`turtle.circle(r)` draws a circle of radius r. The turtle draws it anticlockwise, starting at the **bottom** of the circle while facing east. So to draw a circle **centred** on (0, 0), first lift the pen and move to (0, -r).
+The starter code creates a turtle object with `myTurtle = turtle.Turtle()` in the GLOBAL VARIABLES section. Do all of your drawing with `myTurtle`, for example `myTurtle.forward(50)`, and end the program with `turtle.done()`.
 
-`turtle.pencolor("black")` sets the outline colour and `turtle.fillcolor(colour)` sets the fill colour. Call `turtle.begin_fill()` **after** moving to the start of the circle and `turtle.end_fill()` after drawing it.
+`myTurtle.circle(r)` draws a circle of radius r. The turtle draws it anticlockwise, starting at the **bottom** of the circle while facing east. So to draw a circle **centred** on (0, 0), first lift the pen and move to (0, -r).
+
+`myTurtle.pencolor("black")` sets the outline colour and `myTurtle.fillcolor(colour)` sets the fill colour. Call `myTurtle.begin_fill()` **after** moving to the start of the circle and `myTurtle.end_fill()` after drawing it.
 
 ## Example run
 

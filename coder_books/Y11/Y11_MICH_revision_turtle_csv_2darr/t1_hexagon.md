@@ -14,7 +14,7 @@ Run the program, read the error message, fix that line, then run it again. Repea
 
 ## Hints
 
-Error messages tell you the line number. Check spelling and capital letters carefully - Python is case-sensitive, so `Turtle` and `turtle` are different names.
+Error messages tell you the line number. Check spelling and capital letters carefully - Python is case-sensitive: the library is `turtle` (lower case), and `turtle.Turtle()` (capital T) creates the turtle object `myTurtle` that does the drawing.
 
 A subprogram is only called when it is followed by brackets, even when it takes no parameters.
 

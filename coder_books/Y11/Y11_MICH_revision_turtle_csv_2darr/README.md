@@ -9,7 +9,10 @@ listing inputs to try and the results to expect.
 Every program follows the Edexcel GCSE template (`# LIBRARIES`, `# CONSTANTS`,
 `# GLOBAL VARIABLES`, `# SUBPROGRAMS`, `# MAIN`) with UPPERCASE constants, camelCase
 names and all variables initialised (globals at global level, locals at the start of
-their subprogram; loop counters are initialised by their `for`).
+their subprogram; loop counters are initialised by their `for`). As in the Edexcel PLS,
+turtle programs draw with a turtle object, `myTurtle = turtle.Turtle()` (created in the
+GLOBAL VARIABLES section), rather than the module-level `turtle.forward(...)` functions;
+only `turtle.done()` is called on the module.
 
 Open it with `?book=<url of this folder's book.json>` — once pushed, that is
 `https://raw.githubusercontent.com/bakerpdgit/pythoncoder/HEAD/example%20books/gcse_revision_turtle_csv_2d/book.json`.
