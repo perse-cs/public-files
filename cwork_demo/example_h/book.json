@@ -1,0 +1,27 @@
+{
+  "name": "Example H: Maze Explorer",
+  "id": "cwork-example-h-book",
+  "children": [
+    {
+      "id": "cwork-example-h-run",
+      "name": "Run the program",
+      "guide": "guide.md",
+      "py": "main.py",
+      "isExample": true,
+      "additionalFiles": [
+        {
+          "filename": "maze_generators.py",
+          "visible": true
+        },
+        {
+          "filename": "maze_model.py",
+          "visible": true
+        },
+        {
+          "filename": "maze_search.py",
+          "visible": true
+        }
+      ]
+    }
+  ]
+}

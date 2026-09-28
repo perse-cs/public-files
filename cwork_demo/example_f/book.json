@@ -1,0 +1,27 @@
+{
+  "name": "Example F: Connect Four",
+  "id": "cwork-example-f-book",
+  "children": [
+    {
+      "id": "cwork-example-f-run",
+      "name": "Run the program",
+      "guide": "guide.md",
+      "py": "main.py",
+      "isExample": true,
+      "additionalFiles": [
+        {
+          "filename": "connect_ai.py",
+          "visible": true
+        },
+        {
+          "filename": "connect_engine.py",
+          "visible": true
+        },
+        {
+          "filename": "connect_store.py",
+          "visible": true
+        }
+      ]
+    }
+  ]
+}
