@@ -4,7 +4,7 @@
   "children": [
     {
       "id": "rev-tcd-t1",
-      "name": "Turtle 1 (trivial): Fix the hexagon",
+      "name": "Turtle 1 (easier): Fix the hexagon",
       "guide": "t1_hexagon.md",
       "py": "t1_hexagon.py",
       "isExample": true,
@@ -35,7 +35,7 @@
     },
     {
       "id": "rev-tcd-t2",
-      "name": "Turtle 2 (simple): A row of squares",
+      "name": "Turtle 2 (medium): A row of squares",
       "guide": "t2_squares.md",
       "py": "t2_squares.py",
       "isExample": true,
@@ -68,7 +68,7 @@
     },
     {
       "id": "rev-tcd-t3",
-      "name": "Turtle 3 (medium): Archery target",
+      "name": "Turtle 3 (harder): Archery target",
       "guide": "t3_target.md",
       "py": "t3_target.py",
       "isExample": true,
@@ -101,7 +101,7 @@
     },
     {
       "id": "rev-tcd-t4",
-      "name": "Turtle 4 (hard): Bar chart of scores",
+      "name": "Turtle 4 (hardest): Bar chart of scores",
       "guide": "t4_bar_chart.md",
       "py": "t4_bar_chart.py",
       "isExample": true,
@@ -139,7 +139,7 @@
     },
     {
       "id": "rev-tcd-c1",
-      "name": "CSV 1 (trivial): Big cities",
+      "name": "CSV 1 (easier): Big cities",
       "guide": "c1_cities.md",
       "py": "c1_cities.py",
       "isExample": true,
@@ -165,7 +165,7 @@
     },
     {
       "id": "rev-tcd-c2",
-      "name": "CSV 2 (simple): Club members by year",
+      "name": "CSV 2 (medium): Club members by year",
       "guide": "c2_members.md",
       "py": "c2_members.py",
       "isExample": true,
@@ -191,7 +191,7 @@
     },
     {
       "id": "rev-tcd-c3",
-      "name": "CSV 3 (medium): Exam results report",
+      "name": "CSV 3 (harder): Exam results report",
       "guide": "c3_report.md",
       "py": "c3_report.py",
       "isExample": true,
@@ -217,7 +217,7 @@
     },
     {
       "id": "rev-tcd-c4",
-      "name": "CSV 4 (hard): Validating orders",
+      "name": "CSV 4 (hardest): Validating orders",
       "guide": "c4_orders.md",
       "py": "c4_orders.py",
       "isExample": true,
@@ -243,7 +243,7 @@
     },
     {
       "id": "rev-tcd-a1",
-      "name": "2D arrays 1 (trivial): Unscramble the totals",
+      "name": "2D arrays 1 (easier): Unscramble the totals",
       "guide": "a1_test_totals.md",
       "py": "a1_test_totals.py",
       "isExample": true
@@ -257,7 +257,7 @@
     },
     {
       "id": "rev-tcd-a2",
-      "name": "2D arrays 2 (simple): Cinema seat booking",
+      "name": "2D arrays 2 (medium): Cinema seat booking",
       "guide": "a2_cinema.md",
       "py": "a2_cinema.py",
       "isExample": true
@@ -271,7 +271,7 @@
     },
     {
       "id": "rev-tcd-a3",
-      "name": "2D arrays 3 (medium): Sales table",
+      "name": "2D arrays 3 (harder): Sales table",
       "guide": "a3_sales_table.md",
       "py": "a3_sales_table.py",
       "isExample": true
@@ -285,7 +285,7 @@
     },
     {
       "id": "rev-tcd-a4",
-      "name": "2D arrays 4 (hard): Minesweeper",
+      "name": "2D arrays 4 (hardest): Minesweeper",
       "guide": "a4_minesweeper.md",
       "py": "a4_minesweeper.py",
       "isExample": true
