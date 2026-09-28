@@ -21,15 +21,16 @@ inFile.readline()                        # skip the header row
 outFile.write("name,total,result\n")
 
 for line in inFile:
-    fields = line.strip().split(",")
-    total = int(fields[1]) + int(fields[2])
-    if total >= passMark:
-        result = "Pass"
-        numPassed = numPassed + 1
-    else:
-        result = "Fail"
-    numStudents = numStudents + 1
-    outFile.write(fields[0] + "," + str(total) + "," + result + "\n")
+  line = line.strip()
+  fields = line.split(",")
+  total = int(fields[1]) + int(fields[2])
+  if total >= passMark:
+    result = "Pass"
+    numPassed = numPassed + 1
+  else:
+    result = "Fail"
+  numStudents = numStudents + 1
+  outFile.write(fields[0] + "," + str(total) + "," + result + "\n")
 
 inFile.close()
 outFile.close()

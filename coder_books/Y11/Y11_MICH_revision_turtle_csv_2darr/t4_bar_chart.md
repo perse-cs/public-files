@@ -20,7 +20,7 @@ Colour each bar by its score: **green** for 70 or more, **orange** for 40 to 69,
 
 The starter code creates a turtle object with `myTurtle = turtle.Turtle()` in the GLOBAL VARIABLES section. Do all of your drawing with `myTurtle`, including inside your subprograms.
 
-Write each score in black just above the middle of its bar, using `myTurtle.write()` with `font=LABEL_FONT`.
+For extension (not on the EdExcel PLS), write each score in black just above the middle of its bar, using `myTurtle.write()` with `font=LABEL_FONT`.
 
 When the chart is drawn, display the highest score and the average score to 1 decimal place:
 

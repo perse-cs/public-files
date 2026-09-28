@@ -14,29 +14,31 @@ xPos = 0
 colour = ""
 
 # SUBPROGRAMS
+
+
 def drawSquare(x, y, size, fillColour):
-    # Draws a filled square with its bottom-left corner at (x, y)
-    myTurtle.penup()
-    myTurtle.goto(x, y)
-    myTurtle.pendown()
-    myTurtle.color(fillColour)
-    myTurtle.begin_fill()
-    for side in range(4):
-        # (1) Move forward by size, then turn LEFT 90 degrees
-        pass
-    myTurtle.end_fill()
+  # Draws a filled square with its bottom-left corner at (x, y)
+  myTurtle.penup()
+  myTurtle.goto(x, y)
+  myTurtle.pendown()
+  myTurtle.color(fillColour)
+  myTurtle.begin_fill()
+  for side in range(4):
+      # (1) ==> Move forward by size, then turn LEFT 90 degrees
+
+  myTurtle.end_fill()
+
 
 # MAIN
 numSquares = int(input("How many squares (1-8)? "))
 xPos = START_X
 
 for count in range(numSquares):
-    # (2) Set colour to "red" when count is even, otherwise "blue"
+  # (2) ==> Set the global variable colour to "red" when count is even, otherwise "blue"
 
-    # (3) Call drawSquare to draw a SIZE square at (xPos, START_Y) in colour
+  # (3) ==> Call drawSquare to draw a SIZE square at (xPos, START_Y) in colour
 
-    # (4) Move xPos along by one square and one gap
-    pass
+  # (4) ==> Move xPos along by one square and one gap
 
 myTurtle.hideturtle()
 turtle.done()
