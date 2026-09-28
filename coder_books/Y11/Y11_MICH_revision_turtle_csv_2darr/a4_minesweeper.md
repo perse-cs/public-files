@@ -1,6 +1,6 @@
 # 2D arrays 4: Minesweeper
 
-**Level: hard - several requirements, and you must decompose the problem into subprograms**
+**Level: hardest - several requirements, and you must decompose the problem into subprograms**
 
 In the game Minesweeper, a grid hides some mines. When you pick a safe square, you are told how many mines are in the squares touching it - including diagonally - so a square can have up to 8 neighbours.
 

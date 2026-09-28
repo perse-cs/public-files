@@ -1,6 +1,6 @@
 # CSV 1: Big cities
 
-**Level: trivial - fill in the blanks**
+**Level: simpler - fill in the blanks**
 
 The file `cities.csv` holds one city per line in the form `city,country,population`, where the population is in millions:
 

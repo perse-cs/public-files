@@ -1,6 +1,6 @@
 # Turtle 2: A row of squares
 
-**Level: simple - complete the missing lines**
+**Level: medium - complete the missing lines**
 
 The program asks the user how many squares to draw (1 to 8). It then draws that many filled squares in a row, going from left to right. For example, with 5 squares:
 

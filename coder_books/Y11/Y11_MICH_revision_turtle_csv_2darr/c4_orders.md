@@ -1,6 +1,6 @@
 # CSV 4: Validating orders
 
-**Level: hard - several requirements, and you must decompose the problem into subprograms**
+**Level: hardest - several requirements, and you must decompose the problem into subprograms**
 
 An online stationery shop exports its orders to `orders.csv`, one order per line in the form `orderID,product,quantity,unitPrice`. Some lines have been corrupted:
 

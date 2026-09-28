@@ -1,6 +1,6 @@
 # 2D arrays 1: Unscramble the totals
 
-**Level: trivial - rearrange the lines**
+**Level: simpler - rearrange the lines**
 
 `results` is a 2D array (a list of lists). Each row holds a student's name followed by their marks on three tests. `results[1][0]` is `"Ben"` and `results[1][2]` is Ben's second test mark, `14`.
 

@@ -1,6 +1,6 @@
 # Turtle 4: Bar chart of scores
 
-**Level: hard - several requirements, and you must decompose the problem into subprograms**
+**Level: hardest - several requirements, and you must decompose the problem into subprograms**
 
 Write a program that reads in some test scores and draws them as a colour-coded bar chart.
 

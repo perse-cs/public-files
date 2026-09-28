@@ -1,6 +1,6 @@
 # Turtle 3: Archery target
 
-**Level: medium - the task is described, you write the code**
+**Level: harder - the task is described, you write the code**
 
 Write a program that draws an archery target made of rings.
 

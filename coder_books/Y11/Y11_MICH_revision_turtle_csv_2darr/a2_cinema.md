@@ -1,6 +1,6 @@
 # 2D arrays 2: Cinema seat booking
 
-**Level: simple - complete the missing lines**
+**Level: medium - complete the missing lines**
 
 A small cinema screen has 4 rows (A to D) of 6 seats. The 2D array `seats` stores `"-"` for a free seat and `"X"` for a taken one. `seats[0]` is row A, and `seats[0][0]` is seat A1.
 

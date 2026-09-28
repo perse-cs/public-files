@@ -1,6 +1,6 @@
 # CSV 2: Club members by year
 
-**Level: simple - complete the missing lines**
+**Level: medium - complete the missing lines**
 
 A sports club keeps its members in `members.csv`. Each line is `memberID,firstName,surname,yearJoined`:
 

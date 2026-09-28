@@ -1,6 +1,6 @@
 # CSV 3: Exam results report
 
-**Level: medium - the task is described, you write the code**
+**Level: harder - the task is described, you write the code**
 
 `results.csv` holds each student's marks on two exam papers, each out of 80. Unlike the earlier files, its **first line is a header row**:
 

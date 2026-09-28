@@ -1,6 +1,6 @@
 # Turtle 1: Fix the hexagon
 
-**Level: trivial - fix the errors**
+**Level: simpler - fix the errors**
 
 This program should draw a **filled orange regular hexagon** with sides of 80 pixels, starting from the centre of the screen and turning **left** at each corner. It should look like this:
 

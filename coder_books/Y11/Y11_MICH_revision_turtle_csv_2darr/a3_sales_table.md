@@ -1,6 +1,6 @@
 # 2D arrays 3: Sales table
 
-**Level: medium - the task is described, you write the code**
+**Level: harder - the task is described, you write the code**
 
 `sales` is a 2D array holding each salesperson's sales (in £) for the four quarters of the year. Row `r` belongs to `names[r]`, and column `c` is quarter `c + 1`.
 
